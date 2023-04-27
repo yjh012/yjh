@@ -1,0 +1,65 @@
+자료형 종류
+정수형 short,int,long long
+부동소수점형 float, double, long double
+문자형 char
+
+scanf()의 형식지정자
+%d:10진 정수를 입력한다.
+%f:float 형의 실수를 입력한다.
+%lf:double 형의 실수를 입력한다.
+%c:하나의 문자를 입력한다.
+%s:문자열을 입력한다.
+
+덧셈 문제
+첫번째 숫자를 입력하시오: 10
+두번째 숫자를 입력하시오: 20
+두수의 합: 30
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
+int main(void)
+{
+    int x;
+    int y; 
+    int sum; 
+       printf("첫번째 숫자를 입력하시오:");
+       scanf("%d", &x); 
+
+       printf("두번째 숫자를 입력하시오:");
+       scanf("%d", &y); 
+       sum = x + y; 
+
+       printf("두수의 합: %d", sum); 
+       
+       return 0; 
+       
+   원이 면적 계산 프로그램
+   
+반지름을 입력하시오: 10.0
+원의 면적: 314.000000
+       
+ int main(void)
+ {
+      float radius; 
+      float area; 
+
+      printf("반지름을 입력하시오 : ");
+      scanf("%f", &radius);
+      area = 3.14 * radius * radius;
+      
+      printf("원의 면적 : %f\n", area);
+  
+  return 0;
+}
+       
+       
+       
+       
+      
+       
+      
+ 
+       
+       
